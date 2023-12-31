@@ -37,3 +37,24 @@ Once finished this Project will have the following Key Features:
 - 🔑 Change password with old password confirmation in Settings page
 - 🔔 Enable/disable two-factor auth in Settings page
 - 🔄 Change user role in Settings page (for development purposes only)
+
+Project global advancement
+- [x] Project structure
+- [x] Landing page
+- [x] Login Component (Redirect)
+- [x] Register Component
+- [x] Login Button
+- [x] Social Login Component
+- [ ] Email Verification
+- [ ] 2FA
+- [ ] User Roles
+- [ ] Forgot Password Component
+- [ ] Role Gate
+- [ ] Hooks
+- [ ] Protect API Routes for Admins only
+- [ ] Protect Server Actions for Admins only
+- [ ] Change Email
+- [ ] Change Password
+- [ ] Enable / disable 2FA in settings
+- [ ] Credentials Provider
+- [ ] OAuth Provider
