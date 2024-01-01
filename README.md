@@ -47,9 +47,9 @@ Project global advancement
 - [x] Social Login Component
 - [x] Credentials Provider
 - [x] OAuth Provider
+- [x] User Roles
 - [ ] Email Verification
 - [ ] 2FA
-- [ ] User Roles
 - [ ] Forgot Password Component
 - [ ] Role Gate
 - [ ] Hooks
