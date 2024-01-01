@@ -4,7 +4,7 @@
 
 This is a repository for Next Auth v5 (2024)
 
-Key Features:
+Once finished this Project will have the following Key Features:
 - 🔐 Next-auth v5 (Auth.js)
 - 🚀 Next.js 14 with server actions
 - 🔑 Credentials Provider
@@ -38,32 +38,23 @@ Key Features:
 - 🔔 Enable/disable two-factor auth in Settings page
 - 🔄 Change user role in Settings page (for development purposes only)
 
-### Prerequisites
-
-**Node version 18.7.x**
-
-### Cloning the repository
-
-```shell
-git clone https://github.com/AntonioErdeljac/next-auth-v5-advanced-guide.git
-```
-
-### Install packages
-
-```shell
-npm i
-```
-
-### Start the app
-
-```shell
-npm run dev
-```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
+Project global advancement
+- [x] Project structure
+- [x] Landing page
+- [x] Login Component (Redirect)
+- [x] Register Component
+- [x] Login Button
+- [x] Social Login Component
+- [ ] Email Verification
+- [ ] 2FA
+- [ ] User Roles
+- [ ] Forgot Password Component
+- [ ] Role Gate
+- [ ] Hooks
+- [ ] Protect API Routes for Admins only
+- [ ] Protect Server Actions for Admins only
+- [ ] Change Email
+- [ ] Change Password
+- [ ] Enable / disable 2FA in settings
+- [ ] Credentials Provider
+- [ ] OAuth Provider
