@@ -46,6 +46,7 @@ Project global advancement
 - [x] Login Button
 - [x] Social Login Component
 - [x] Credentials Provider
+- [x] OAuth Provider
 - [ ] Email Verification
 - [ ] 2FA
 - [ ] User Roles
@@ -57,4 +58,3 @@ Project global advancement
 - [ ] Change Email
 - [ ] Change Password
 - [ ] Enable / disable 2FA in settings
-- [ ] OAuth Provider
