@@ -91,7 +91,7 @@ export const LoginForm = () => {
                   <FormControl>
                     <Input 
                       {...field} 
-                      placeholder="*********" 
+                      placeholder="•••••••••" 
                       type="password"
                       autoCorrect="off"
                       disabled={isPending}
