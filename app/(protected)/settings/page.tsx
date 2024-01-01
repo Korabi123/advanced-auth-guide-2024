@@ -8,7 +8,7 @@ const SettingsPage = async () => {
     <>
       <div className="font-semibold text-center text-6xl">Hello Settings</div>
       <hr className="my-4" />
-      <div className="font-semibold text-4xl">Session: <br /> {JSON.stringify(session)}</div>
+      <div className="font-semibold text-2xl">Session: <br /> {JSON.stringify(session)}</div>
       <form action={async () => {
         "use server";
 
