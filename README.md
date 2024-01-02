@@ -47,7 +47,7 @@ Project global advancement
 - [x] Social Login Component
 - [x] Credentials Provider
 - [x] OAuth Provider
-- [ ] Email Verification
+- [x] Email Verification
 - [ ] 2FA
 - [ ] User Roles
 - [ ] Forgot Password Component
