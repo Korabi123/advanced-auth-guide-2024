@@ -50,11 +50,11 @@ Project global advancement
 - [x] User Roles
 - [x] Email Verification
 - [x] Forgot Password Component
+- [x] Change Password
 - [ ] 2FA
 - [ ] Role Gate
 - [ ] Hooks
 - [ ] Protect API Routes for Admins only
 - [ ] Protect Server Actions for Admins only
 - [ ] Change Email
-- [ ] Change Password
 - [ ] Enable / disable 2FA in settings
