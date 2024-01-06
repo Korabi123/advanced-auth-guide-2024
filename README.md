@@ -49,8 +49,8 @@ Project global advancement
 - [x] OAuth Provider
 - [x] User Roles
 - [x] Email Verification
+- [x] Forgot Password Component
 - [ ] 2FA
-- [ ] Forgot Password Component
 - [ ] Role Gate
 - [ ] Hooks
 - [ ] Protect API Routes for Admins only
