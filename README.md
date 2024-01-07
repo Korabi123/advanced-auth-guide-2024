@@ -49,12 +49,11 @@ Project global advancement
 - [x] OAuth Provider
 - [x] User Roles
 - [x] Email Verification
+- [x] Forgot Password Component
 - [x] 2FA
-- [ ] Forgot Password Component
 - [ ] Role Gate
 - [ ] Hooks
 - [ ] Protect API Routes for Admins only
 - [ ] Protect Server Actions for Admins only
 - [ ] Change Email
-- [ ] Change Password
 - [ ] Enable / disable 2FA in settings
