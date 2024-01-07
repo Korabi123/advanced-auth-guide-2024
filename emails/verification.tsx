@@ -25,7 +25,7 @@ export const VerificationEmail = ({
   return (
     <Html>
       <Head />
-      <Preview>Auth email verification</Preview>
+      <Preview>Hi {name}, We noticed a recent attempt to Register for a 🔐Auth account with your email. If this was you</Preview>
       <Body style={main}>
         <Container>
           <Section style={logo}>
@@ -54,7 +54,7 @@ export const VerificationEmail = ({
                     textAlign: 'start',
                   }}
                 >
-                  We noticed a recent attempt to Login / Register with your email.
+                  We noticed a recent attempt to Register for a 🔐Auth account with your email.
                 </Heading>
 
                 <Text style={paragraph}>

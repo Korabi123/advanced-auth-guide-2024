@@ -25,7 +25,7 @@ export const PasswordResetEmail = ({
   return (
     <Html>
       <Head />
-      <Preview>Change 🔐Auth account password.</Preview>
+      <Preview>Hi {name}, We noticed a recent attempt to reset your 🔐Auth account password. If this was you</Preview>
       <Body style={main}>
         <Container>
           <Section style={logo}>
