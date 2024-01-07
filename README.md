@@ -49,7 +49,7 @@ Project global advancement
 - [x] OAuth Provider
 - [x] User Roles
 - [x] Email Verification
-- [ ] 2FA
+- [x] 2FA
 - [ ] Forgot Password Component
 - [ ] Role Gate
 - [ ] Hooks
