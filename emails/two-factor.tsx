@@ -57,6 +57,8 @@ export const TwoFactorEmail = ({ token, name }: TwoFactorEmailProps) => {
                     This is your 2FA code: 
                     <br />
                     <span className="text-2xl mt-2 font-bold tracking-wider">{token}</span>
+                    <br />
+                    <span className="mt-2 text-lg">This code will expire in 5 minutes.</span>
                   </Text>
 
                   <Text style={paragraph}>
