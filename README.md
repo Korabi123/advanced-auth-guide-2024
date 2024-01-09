@@ -51,8 +51,8 @@ Project global advancement
 - [x] Email Verification
 - [x] Forgot Password Component
 - [x] 2FA
+- [x] Hooks
 - [ ] Role Gate
-- [ ] Hooks
 - [ ] Protect API Routes for Admins only
 - [ ] Protect Server Actions for Admins only
 - [ ] Change Email
