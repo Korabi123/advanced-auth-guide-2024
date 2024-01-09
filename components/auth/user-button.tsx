@@ -28,7 +28,7 @@ export const UserButton = () => {
     <DropdownMenu>
       <DropdownMenuTrigger className="focus-visible:outline-none">
         <Avatar>
-          <AvatarImage src={user?.image || ""} />
+          <AvatarImage src={user?.image ?? ""} />
           <AvatarFallback className="bg-gradient-to-b from-gray-700 via-gray-900 to-black text-white">
             <FaUser />
           </AvatarFallback>
