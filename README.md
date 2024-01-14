@@ -52,8 +52,8 @@ Project global advancement
 - [x] Forgot Password Component
 - [x] 2FA
 - [x] Hooks
-- [ ] Role Gate
-- [ ] Protect API Routes for Admins only
-- [ ] Protect Server Actions for Admins only
+- [x] Role Gate
+- [x] Protect API Routes for Admins only
+- [x] Protect Server Actions for Admins only
 - [ ] Change Email
 - [ ] Enable / disable 2FA in settings
