@@ -9,12 +9,8 @@ import {
   DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
 
-import {
-  Avatar,
-  AvatarImage,
-  AvatarFallback,
-} from "@/components/ui/avatar";
-import { FaUser } from "react-icons/fa";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { FaUser, FaUserAlt, FaUserFriends } from "react-icons/fa";
 import { useCurrentUser } from "@/hooks/use-current-user";
 import { AvatarSkeleton } from "./avatar-skeleton";
 import { LogoutButton } from "./logout-button";
@@ -34,20 +30,29 @@ export const UserButton = () => {
           </AvatarFallback>
         </Avatar>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-50" align="center">
+      <DropdownMenuContent className="w-72" align="center">
         <DropdownMenuLabel>
-          <h4 className="font-semibold text-lg tracking-tight">Hello, {user?.name}</h4>
+          <div className="py-2 px-4 rounded-md bg-slate-100">
+            <div>
+              <h4 className="font-semibold text-lg tracking-tight">
+                {user?.name}
+              </h4>
+              <h4 className="mt-0 font-light text-xs">{user?.email}</h4>
+            </div>
+          </div>
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
+        <DropdownMenuItem className="cursor-pointer">
+          <FaUserFriends className="h-4 w-4" />
+          <Button className="ml-2">Profile</Button>
+        </DropdownMenuItem>
         <LogoutButton>
           <DropdownMenuItem className="cursor-pointer">
             <ExitIcon className="h-4 w-4" />
-            <Button className="ml-2">
-              Sign Out
-            </Button>
+            <Button className="ml-2">Sign Out</Button>
           </DropdownMenuItem>
         </LogoutButton>
       </DropdownMenuContent>
     </DropdownMenu>
-  )
-}
+  );
+};
