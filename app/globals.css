@@ -8,6 +8,14 @@ body,
   height: 100%;
 }
 
+.demo-tab {
+  scale: (0.5);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -o-transform: scale(0.8);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

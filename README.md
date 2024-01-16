@@ -38,7 +38,7 @@ Once finished this Project will have the following Key Features:
 - 🔔 Enable/disable two-factor auth in Settings page
 - 🔄 Change user role in Settings page (for development purposes only)
 
-Project global advancement
+Project Progress:
 - [x] Project structure
 - [x] Landing page
 - [x] Login Component (Redirect)
@@ -55,5 +55,5 @@ Project global advancement
 - [x] Role Gate
 - [x] Protect API Routes for Admins only
 - [x] Protect Server Actions for Admins only
-- [ ] Change Email
-- [ ] Enable / disable 2FA in settings
+- [x] Change Email
+- [x] Enable / disable 2FA in settings
